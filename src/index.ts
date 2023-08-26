@@ -38,3 +38,9 @@
 // Arrays
     let dados: string[] = ['Gabriel', 'Felipe', 'Antonio'];
     let dados2: Array<string> = ['Gabriel', 'Felipe', 'Antonio'];
+
+// Array multitipos 
+    let infos: (string | number)[] = ['Gabriel', 24, 'Reliquias'];
+
+// Tuplas - Vetor de multi types com lugares definidos para cada tipo
+    let boleto:[string, number, number] = ['agua conta', 199.90, 3132312];
