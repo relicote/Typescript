@@ -15,9 +15,22 @@
     let retorno: void; //utilizado somente para executar e não retornar 
     let retornoView: any = 'oi safada';
 
-// Objeto
+// Objeto - Sem previsibilidade 
     let produto:object = {
         name: 'Gabriel',
         cidade: 'SP',
         idade: 24,
     };
+
+// Objeto tipado - Com previsibilidade 
+    type ProdutoLoja ={
+        nome: string;
+        preco: number;
+        unidades: number;
+    }
+
+    let meuProduto: ProdutoLoja ={
+         nome: 'Tênis',
+         preco: 89.99,
+         unidades: 5,
+    }
