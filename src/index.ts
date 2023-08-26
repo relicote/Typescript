@@ -8,6 +8,8 @@
     let altura: number = 1.6;
 
 // null
-// undefine
+// undefined
+    let nulo: null = null;
+    let indefinido: undefined = undefined;
 // any
 // void
