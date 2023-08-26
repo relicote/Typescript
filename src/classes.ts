@@ -1,11 +1,11 @@
 //Classes
 
-// Data modifiers - Public, private, protected
+// Data modifiers - Public, private, protected 
 
 
 class character{
     protected name?: string;
-    streght: number;
+    readonly streght: number;
     skill: number;
 
     constructor(name: string, streght:number, skill: number){
@@ -14,11 +14,10 @@ class character{
         this.skill = skill;
     }
 
-    attack(): void{
+    protected attack(): void{
         console.log(`${this.name} Attack with ${this.streght} points`)
     }
 }
 
 const p1 = new character('Ryu', 10, 98);
-console.log(p1);
-p1.attack();
+p1.skill = 12

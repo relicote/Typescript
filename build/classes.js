@@ -1,6 +1,6 @@
 "use strict";
 //Classes
-// Data modifiers - Public, private, protected
+// Data modifiers - Public, private, protected 
 class character {
     constructor(name, streght, skill) {
         this.name = name;
@@ -12,5 +12,3 @@ class character {
     }
 }
 const p1 = new character('Ryu', 10, 98);
-console.log(p1);
-p1.attack();
