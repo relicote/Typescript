@@ -34,3 +34,7 @@
          preco: 89.99,
          unidades: 5,
     }
+
+// Arrays
+    let dados: string[] = ['Gabriel', 'Felipe', 'Antonio'];
+    let dados2: Array<string> = ['Gabriel', 'Felipe', 'Antonio'];
