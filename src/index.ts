@@ -44,3 +44,5 @@
 
 // Tuplas - Vetor de multi types com lugares definidos para cada tipo
     let boleto:[string, number, number] = ['agua conta', 199.90, 3132312];
+
+// arrays métodos
