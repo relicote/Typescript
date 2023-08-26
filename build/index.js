@@ -33,4 +33,4 @@ let boleto = ['agua conta', 199.90, 3132312];
 dados.pop();
 // Datas
 let aniversario = new Date('2022-12-01 05:00');
-console.log(aniversario.toString());
+// console.log(aniversario.toString());
