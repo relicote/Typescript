@@ -14,3 +14,10 @@
 // Tipos abrangentes: Any e Void
     let retorno: void; //utilizado somente para executar e não retornar 
     let retornoView: any = 'oi safada';
+
+// Objeto
+    let produto:object = {
+        name: 'Gabriel',
+        cidade: 'SP',
+        idade: 24,
+    };
